@@ -1,0 +1,109 @@
+.mark,
+.discription-1,
+.discription-2,
+.discription-3,
+.moreinfo,
+.shop,
+.shop-myel {
+    font-family: 'Roboto', Georgia, sans-serif;
+    font-weight: 400;
+}
+
+.mark,
+.menu,
+.maincontent,
+.moreinfo {
+    display: grid;
+
+}
+
+.mark {
+    background-color: #D8BF95;
+    height: 40px;
+    align-items: center;
+    justify-items: center;
+}
+
+.menu {
+    background-color: #F1F1F1;
+    height: 88px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    position: absolute;
+}
+
+.picture-M,
+.picture-Y,
+.picture-E {
+    margin: 0 10px 0 0;
+}
+
+.maincontent {
+    height: 800px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.lang {
+    margin: 0 0 0 30px;
+}
+
+.cart {
+    margin: 0 0 0 260px;
+}
+
+.discription-1,
+.discription-2 {
+    position: flex;
+    margin-top: -70px;
+    margin-left: 55px;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+
+.shop {
+    display: flex;
+    margin-top: -150px;
+    margin-left: 445px;
+    font-size: 18px;
+    line-height: 22.5px;
+    color: black;
+}
+
+.moreinfo {
+    grid-template-rows: 400px;
+    grid-template-columns: 2fr 1fr;
+    font-size: 64px;
+    line-height: 64px;
+    align-items: end;
+    padding-left: 64px;
+    ;
+}
+
+.shop-myel {
+    font-size: 18px;
+    line-height: 22.5px;
+    align-self: start;
+    margin-top: 150px;
+    margin-left: 410px;
+
+}
+
+.discription-3 {
+    font-size: 20px;
+    line-height: 20px;
+}
